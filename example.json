@@ -1,0 +1,100 @@
+```
+    bannerImage: {
+      type: 'Image',
+      url: 'https://today.uconn.edu/wp-content/uploads/2024/03/CampusAerial-1500x1000px.jpg',
+      altText: 'Aerial view of a university campus at sunset, featuring brick buildings, a central green quad with walking paths, and a misty forest in the distance under a colorful sky.',
+    },
+    region: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'Region',
+      options: ['North America', 'Latin America', 'Asia', 'Oceania', 'UK + Ireland', 'Europe'],
+      selected: 'North America',
+    },
+    country: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'Country',
+      options: ['Canada', 'USA'],
+      selected: 'USA',
+    },
+    degreeLevel: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'Degree Level',
+      options: ['Undergraduate', 'Postgraduate', 'Undergraduate + Postgraduate', 'Other'],
+      selected: 'Undergraduate',
+    },
+    language: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'English Availability',
+      options: ['English', 'Some English', 'No English'],
+      selected: 'English',
+    },
+    housingAvailability: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'Housing Availability',
+      options: ['Guaranteed', 'Available', 'Limited Availability', 'Unknown'],
+      selected: 'Unknown',
+    },
+    housingInformation: {
+      type: 'TextBlock',
+      id: 1,
+      title: 'Housing Information',
+      content: 'The University of Connecticut offers guaranteed housing to exchange students',
+      links: [],
+    },
+    partnerCategory: {
+      type: 'SingleSelect',
+      id: 1,
+      selectTitle: 'Partner category',
+      options: ['Super Partner', 'High Capacity', 'High Demand', 'Standard'],
+      selected: 'Standard',
+    },
+    wam: {
+      type: 'NumericInput',
+      id: 1,
+      inputTitle: 'WAM',
+      value: 65,
+    },
+    faculties: {
+      type: 'FilterTags',
+      id: 1,
+      tagTitle: 'Faculties Offering',
+      options: ['Business School', 'Engineering', 'Law and Justice', 'Science, Arts & Social Sciences (discipline)', 'Built Environment (discipline)'],
+      selected: ['Business School', 'Engineering', 'Law and Justice', 'Science, Arts & Social Sciences (discipline)', 'Built Environment (discipline)'],
+    },
+    termsOffered: {
+      type: 'FilterTags',
+      id: 1,
+      tagTitle: 'Term of Study',
+      tagDescription: 'Term offering that students may take the university in',
+      options: ['Term 1', 'Term 2', 'Term 3', 'FlexSemester 1'],
+      selected: ['Term 1', 'Term 3', 'FlexSemester 1'],
+    },
+    courseInfo: {
+      type: 'TextBlock',
+      id: 1,
+      title: 'Course Load',
+      content: 'All exchange students must maintain a full time load at 12UOC - 15UOC',
+      links: [{
+        linkName: 'Partner Course Handbook',
+        url: 'https://catalog.uconn.edu/',
+      }],
+    },
+    extraInfo: {
+      type: 'TextBlock',
+      id: 1,
+      title: 'Extra Information',
+      content: 'Course syllabi are not publicly available. Most syllabi are not available until students arrive on campus.',
+      links: [{
+        linkName: 'Course Restrictions',
+        url: 'https://experiential.global.uconn.edu/courseregistration/',
+      }],
+    },
+    additionalContentBlocks: [],
+  });
+};
+```
